@@ -1,0 +1,14 @@
+{
+"Type": "rylcOrder",
+"company": "ABC_AG",
+"startDate": "2011-07-12",
+"endDate": "2011-07-15",
+"selectedCarPrice": "80.00"
+},
+{
+"Type": "rylcOrder",
+"company": "ABC_AG",
+"startDate": "2011-08-12",
+"endDate": "2011-08-15",
+"selectedCarPrice": "90.00"
+}

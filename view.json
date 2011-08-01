@@ -1,0 +1,13 @@
+{
+  "_id":"_design/rylc",
+  "language": "javascript",
+  "views":
+  {
+    "all": {
+      "map": "function(doc) { if (doc.Type == 'rylcOrder')  emit(null, doc) }"
+    },
+    "by_timespan": {
+      "map": "function(doc) { if (doc.Type == 'rylcOrder')  emit([doc.company,doc.startDate,doc.endDate], doc) }"
+    }
+  }
+}
